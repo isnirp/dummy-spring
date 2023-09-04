@@ -19,6 +19,7 @@ public class Pizza {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String crust;
+    @Enumerated(EnumType.STRING)
     private PizzaSize size;
     @OneToMany(mappedBy = "pizza")
     private List<Topping> toppings;
