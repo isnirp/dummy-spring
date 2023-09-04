@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="" />
+    <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pizza-shop/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/pizzashop/PizzaShopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/pizzashop/PizzaShopApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +23,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Uvt8kKR5eMePS6cKehUMftzKsS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +42,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "18"
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/home/prince/Documents/workspace/jva/dummy-spring"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
