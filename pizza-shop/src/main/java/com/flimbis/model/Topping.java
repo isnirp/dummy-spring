@@ -16,6 +16,6 @@ public class Topping {
     private int id;
     private String name;
     @ManyToOne
-    @JoinColumn(name = "id", referencedColumnName = "id")
+    @JoinColumn(name = "pizza_id", referencedColumnName = "id")
     private Pizza pizza;
 }

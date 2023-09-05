@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/PizzaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/controller/PizzaControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,20 @@
       <recent name="com.flimbis.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaControllerTest.createPizza201">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flimbis.App" />
+      <module name="pizza-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flimbis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaControllerTest.createPizza201" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pizza-shop" />
       <extension name="coverage">
@@ -96,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.PizzaControllerTest.createPizza201" />
         <item itemvalue="JUnit.PizzaServiceTest.testMakePizza" />
       </list>
