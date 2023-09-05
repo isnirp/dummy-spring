@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/PizzaBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/service/PizzaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/service/PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/PizzaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/PizzaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/ToppingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/ToppingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/PizzaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/controller/PizzaControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,10 +57,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.flimbis.controller" />
       <recent name="com.flimbis.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PizzaControllerTest.createPizza201">
+    <configuration name="PizzaControllerTest.createPizza201" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pizza-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flimbis.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flimbis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.flimbis.controller.PizzaControllerTest" />
+      <option name="METHOD_NAME" value="createPizza201" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaServiceTest.testMakePizza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pizza-shop" />
       <extension name="coverage">
@@ -87,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PizzaControllerTest.createPizza201" />
         <item itemvalue="JUnit.PizzaServiceTest.testMakePizza" />
       </list>
     </recent_temporary>
