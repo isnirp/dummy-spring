@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,10 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pizza-shop/src/main/resources" />
+      <recent name="$PROJECT_DIR$/pizza-shop" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.flimbis.controller" />
