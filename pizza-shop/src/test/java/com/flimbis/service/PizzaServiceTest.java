@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.ArgumentMatchers.any;
@@ -42,5 +43,37 @@ class PizzaServiceTest {
         int result = service.makePizza(pizzaBase);
 
         assertThat(result).isNotNull();
+    }
+
+    @Test
+    void testGetAllPizzas() {
+        Pizza pizza = Pizza.builder()
+                .id(1)
+                .size(PizzaSize.MEDIUM)
+                .crust("basic")
+                .build();
+
+        List<Pizza> pizzaList = List.of(pizza);
+        when(pizzaRepository.findAll()).thenReturn(pizzaList);
+
+        List<Pizza> result = service.getAllPizzas();
+
+        assertThat(result).isNotNull();
+        assertThat(result.size()).isEqualTo(1);
+    }
+
+    @Test
+    void testGetPizza() {
+        Pizza pizza = Pizza.builder()
+                .id(1)
+                .size(PizzaSize.MEDIUM)
+                .crust("basic")
+                .build();
+
+        when(pizzaRepository.findById(1)).thenReturn(Optional.of(pizza));
+        Pizza result = service.getPizza(1);
+
+        assertThat(result).isNotNull();
+        assertThat(result.getId()).isEqualTo(1);
     }
 }
