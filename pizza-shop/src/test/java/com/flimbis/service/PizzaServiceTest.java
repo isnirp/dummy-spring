@@ -4,6 +4,8 @@ import com.flimbis.model.Pizza;
 import com.flimbis.model.PizzaSize;
 import com.flimbis.model.Topping;
 import com.flimbis.model.dto.PizzaBase;
+import com.flimbis.model.dto.PizzaDto;
+import com.flimbis.model.dto.PizzaDtoMapper;
 import com.flimbis.repo.PizzaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,10 +25,12 @@ class PizzaServiceTest {
     private PizzaService service;
     @Mock
     private PizzaRepository pizzaRepository;
+    @Mock
+    private PizzaDtoMapper mapper;
 
     @BeforeEach
     void setUp() {
-        service = new PizzaService(pizzaRepository);
+        service = new PizzaService(pizzaRepository, mapper);
     }
 
     @Test
@@ -53,10 +57,18 @@ class PizzaServiceTest {
                 .crust("basic")
                 .build();
 
-        List<Pizza> pizzaList = List.of(pizza);
-        when(pizzaRepository.findAll()).thenReturn(pizzaList);
+        PizzaDto pizzaDto = PizzaDto.builder()
+                .id(1)
+                .size("MEDIUM")
+                .crust("basic")
+                .build();
 
-        List<Pizza> result = service.getAllPizzas();
+        List<Pizza> pizzaList = List.of(pizza);
+
+        when(pizzaRepository.findAll()).thenReturn(pizzaList);
+        when(mapper.apply(pizza)).thenReturn(pizzaDto);
+
+        List<PizzaDto> result = service.getAllPizzas();
 
         assertThat(result).isNotNull();
         assertThat(result.size()).isEqualTo(1);
@@ -70,8 +82,15 @@ class PizzaServiceTest {
                 .crust("basic")
                 .build();
 
+        PizzaDto pizzaDto = PizzaDto.builder()
+                .id(1)
+                .size("MEDIUM")
+                .crust("basic")
+                .build();
+
         when(pizzaRepository.findById(1)).thenReturn(Optional.of(pizza));
-        Pizza result = service.getPizza(1);
+        when(mapper.apply(pizza)).thenReturn(pizzaDto);
+        PizzaDto result = service.getPizza(1);
 
         assertThat(result).isNotNull();
         assertThat(result.getId()).isEqualTo(1);
