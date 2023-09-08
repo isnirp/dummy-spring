@@ -8,5 +8,5 @@ import java.util.Optional;
 
 @Repository
 public interface ToppingRepository extends JpaRepository<Topping, Integer> {
-    Optional<Topping> findByIdPizzaId(int id, int pizzaId);
+//    Optional<Topping> findByIdPizza(int id, int pizzaId);
 }

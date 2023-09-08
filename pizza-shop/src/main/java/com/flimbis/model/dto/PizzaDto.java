@@ -17,5 +17,5 @@ public class PizzaDto {
     private int id;
     private String crust;
     private String size;
-    private List<Topping> toppings;
+    private List<ToppingDto> toppings;
 }
