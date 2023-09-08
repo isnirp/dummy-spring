@@ -28,17 +28,17 @@ class ToppingServiceTest {
         toppingService = new ToppingService(repository, mapper);
     }
 
-   /* @Test
+    @Test
     void deleteTopping() {
         Topping topping = new Topping(1, "cheese");
         ArgumentCaptor<Topping> captor = ArgumentCaptor.forClass(Topping.class);
 
-        when(repository.findByIdPizza(1, 2))
+        when(repository.findByIdAndPizzaId(1, 2))
                 .thenReturn(Optional.of(topping));
 
-        toppingService.deletePizzaTopping(2, 1 );
+        toppingService.deletePizzaTopping(2, 1);
 
         verify(repository, times(1)).delete(captor.capture());
         assertThat(topping).isEqualTo(captor.getValue());
-    }*/
+    }
 }

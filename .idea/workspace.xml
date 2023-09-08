@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bdcddd-b2fb-4a60-85fe-c5e7547251cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/ToppingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/ToppingDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/ToppingDtoMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/PizzaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/PizzaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/Topping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/PizzaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/PizzaDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/PizzaDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/model/dto/PizzaDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/ToppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/controller/ToppingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/ToppingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/repo/ToppingRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/service/ToppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/main/java/com/flimbis/service/ToppingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/service/ToppingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-shop/src/test/java/com/flimbis/service/ToppingServiceTest.java" afterDir="false" />

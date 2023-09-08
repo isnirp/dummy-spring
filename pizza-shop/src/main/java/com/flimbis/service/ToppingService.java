@@ -35,16 +35,15 @@ public class ToppingService {
 
     // get toppings of a pizza
     public List<ToppingDto> getPizzaToppings(int pizzaId) {
-        return repository.findAll().stream()
-                .filter(topping -> topping.getPizza().getId() == pizzaId)
+        return repository.findAllToppingsByPizzaId(pizzaId).stream()
                 .map(mapper)
                 .collect(Collectors.toList());
     }
 
-   /* public void deletePizzaTopping(int pizzaId, int toppingId) {
-        Topping topping = repository.findByIdPizza(toppingId, pizzaId)
+    public void deletePizzaTopping(int pizzaId, int toppingId) {
+        Topping topping = repository.findByIdAndPizzaId(toppingId, pizzaId)
                 .orElseThrow(RuntimeException::new);
 
         repository.delete(topping);
-    }*/
+    }
 }
