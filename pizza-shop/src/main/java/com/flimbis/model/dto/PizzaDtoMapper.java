@@ -8,6 +8,12 @@ import java.util.stream.Collectors;
 
 @Component
 public class PizzaDtoMapper implements Function<Pizza, PizzaDto> {
+    private final ToppingDtoMapper toppingDtoMapper;
+
+    public PizzaDtoMapper(ToppingDtoMapper toppingDtoMapper) {
+        this.toppingDtoMapper = toppingDtoMapper;
+    }
+
     @Override
     public PizzaDto apply(Pizza pizza) {
         return PizzaDto.builder()
@@ -15,7 +21,7 @@ public class PizzaDtoMapper implements Function<Pizza, PizzaDto> {
                 .crust(pizza.getCrust())
                 .size(String.valueOf(pizza.getSize()))
                 .toppings(pizza.getToppings().stream()
-                        .map(topping -> new ToppingDtoMapper().apply(topping))
+                        .map(toppingDtoMapper)
                         .collect(Collectors.toList()))
                 .build();
     }
